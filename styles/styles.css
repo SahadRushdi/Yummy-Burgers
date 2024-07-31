@@ -33,6 +33,9 @@ body {
     height: auto;
     border-radius: 10px;
 }
+.btn-img{
+    width: 26px;
+}
 .welcome-text {
     font-size: 2em;
     margin-bottom: 20px;
@@ -42,7 +45,7 @@ body {
     width: 200px;
     padding: 15px;
     margin: 10px auto;
-    background-color: #e0e0e0;
+    background-color: #8d9fd7;
     border: none;
     border-radius: 10px;
     font-size: 1.2em;

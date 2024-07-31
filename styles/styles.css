@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+.container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.left {
+    flex: 1;
+}
+.right {
+    flex: 1;
+    padding: 20px;
+}
+.burger-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.welcome-text {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.menu-button {
+    display: block;
+    width: 200px;
+    padding: 15px;
+    margin: 10px auto;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.menu-button:hover {
+    background-color: #d0d0d0;
+}
